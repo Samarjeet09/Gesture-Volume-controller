@@ -38,6 +38,19 @@ while True:
     landmarkList = detector.findPosition(img,draw = False)
     if(len(landmarkList)!=0):
         # print(landmarkList[4],landmarkList[8])
+        #  filter based on size
+
+        # Find distance  between index and thumb
+
+        # convert length to volume 
+        # reduce resolution to make it smoother
+
+        # check which fingers are up 
+        # if pinky is down set the volume   
+
+        # drawings
+
+        # frame rate
 
         x1,y1 = landmarkList[4][1], landmarkList[4][2]
         x2, y2 = landmarkList[8][1], landmarkList[8][2]
